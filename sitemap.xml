@@ -3,28 +3,49 @@
   
   <url>
     <loc>https://ycwufan.github.io/categories/</loc>
-    <lastmod>2019-12-31T17:06:23+08:00</lastmod>
+    <lastmod>2019-12-31T19:38:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ycwufan.github.io/post/</loc>
-    <lastmod>2019-12-31T17:06:23+08:00</lastmod>
+    <lastmod>2019-12-31T19:38:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ycwufan.github.io/tags/</loc>
-    <lastmod>2019-12-31T17:06:23+08:00</lastmod>
+    <lastmod>2019-12-31T19:38:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ycwufan.github.io/</loc>
-    <lastmod>2019-12-31T17:06:23+08:00</lastmod>
+    <lastmod>2019-12-31T19:38:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/2019/12/31/03%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2019-12-31T19:38:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2019-12-31T19:38:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/tags/%E7%BC%96%E7%A8%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2019-12-31T19:38:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

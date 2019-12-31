@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程 on wufan&#39;s blog</title>
+    <link>https://ycwufan.github.io/categories/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on wufan&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>wufan</copyright>
+    <lastBuildDate>Tue, 31 Dec 2019 17:46:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://ycwufan.github.io/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>电脑小白如何搭建个人的博客网站</title>
+      <link>https://ycwufan.github.io/2019/12/31/03%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Tue, 31 Dec 2019 17:46:00 +0800</pubDate>
+      
+      <guid>https://ycwufan.github.io/2019/12/31/03%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
+      <description>在朋友jdhao的帮助下，终于建成了自己的博客。尽管朋友写了一篇教学文章，但作为电脑小白照着操作还是有点困难，最终是在朋友的远程帮助下，建成</description>
+    </item>
+    
+  </channel>
+</rss>
