@@ -2,34 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ycwufan.github.io/post/</loc>
-    <lastmod>2019-12-28T13:38:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://ycwufan.github.io/</loc>
-    <lastmod>2019-12-28T13:38:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://ycwufan.github.io/2019/12/28/%E8%80%83%E8%AF%81%E7%BB%8F%E9%AA%8C%E8%B0%88/</loc>
-    <lastmod>2019-12-28T13:38:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://ycwufan.github.io/categories/</loc>
+    <lastmod>2019-12-31T16:14:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/post/</loc>
+    <lastmod>2019-12-31T16:14:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ycwufan.github.io/tags/</loc>
+    <lastmod>2019-12-31T16:14:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/</loc>
+    <lastmod>2019-12-31T16:14:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/2019/12/28/01%E8%80%83%E8%AF%81%E7%BB%8F%E9%AA%8C%E8%B0%88v4/</loc>
+    <lastmod>2019-12-31T16:14:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/categories/%E8%80%83%E8%AF%81/</loc>
+    <lastmod>2019-12-31T16:14:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/tags/%E8%80%83%E8%AF%81%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2019-12-31T16:14:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
