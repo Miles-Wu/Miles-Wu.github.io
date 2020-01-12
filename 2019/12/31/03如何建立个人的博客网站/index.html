@@ -43,12 +43,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ycwufan.github.io/2019/12/31/03%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/" />
 <meta property="article:published_time" content="2019-12-31T17:46:00+08:00" />
-<meta property="article:modified_time" content="2020-01-12T14:11:40+08:00" />
+<meta property="article:modified_time" content="2020-01-12T14:43:51+08:00" />
 <meta itemprop="name" content="电脑小白如何搭建个人的博客网站">
 <meta itemprop="description" content="在朋友jdhao的帮助下，终于建成了自己的博客。尽管朋友写了一篇教学文章，但作为电脑小白照着操作还是有点困难，最终是在朋友的远程帮助下，建成">
 <meta itemprop="datePublished" content="2019-12-31T17:46:00&#43;08:00" />
-<meta itemprop="dateModified" content="2020-01-12T14:11:40&#43;08:00" />
-<meta itemprop="wordCount" content="2321">
+<meta itemprop="dateModified" content="2020-01-12T14:43:51&#43;08:00" />
+<meta itemprop="wordCount" content="2333">
 
 
 
@@ -124,7 +124,7 @@
         <div class="post-category">
             <a href="/categories/%E7%BC%96%E7%A8%8B/"> 编程 </a>
             </div>
-          <span class="more-meta"> 2321 words </span>
+          <span class="more-meta"> 2333 words </span>
           <span class="more-meta"> 5 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -135,16 +135,13 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#step1-hugo">step1 下载并安装hugo</a>
-      <ul>
-        <li><a href="#step2-">step2 新建博客文件夹</a></li>
-        <li><a href="#step3-git">step3 安装git</a></li>
-        <li><a href="#step4-visual-studio-code">step4 安装visual studio code</a></li>
-        <li><a href="#step5-">step5 安装并设置博客页面的主题风格</a></li>
-        <li><a href="#step6-">step6 新建一篇文章</a></li>
-        <li><a href="#step7-">step7 在本地服务器上预览博客</a></li>
-      </ul>
-    </li>
+    <li><a href="#step1-hugo">step1 下载并安装hugo</a></li>
+    <li><a href="#step2-">step2 新建博客文件夹</a></li>
+    <li><a href="#step3-git">step3 安装git</a></li>
+    <li><a href="#step4-visual-studio-code">step4 安装visual studio code</a></li>
+    <li><a href="#step5-">step5 安装并设置博客页面的主题风格</a></li>
+    <li><a href="#step6-">step6 新建一篇文章</a></li>
+    <li><a href="#step7-">step7 在本地服务器上预览博客</a></li>
   </ul>
 
   <ul>
@@ -189,7 +186,7 @@
 <p>完成后，复制官网上给出的下载命令，并运行，即可下载安装好chocolatey。</p>
 <p>安装好chocolatey后，在powershell中运行命令<code>choco install hugo -confirm</code>，等待片刻即可安装好hugo。</p>
 <p>结束后不要关闭powershell。</p>
-<h3 id="step2-">step2 新建博客文件夹</h3>
+<h2 id="step2-">step2 新建博客文件夹</h2>
 <p>首先要确定把本地的博客文件夹放在哪个盘下，如果想要放到D盘，首先要将命令行的开头地址改为D盘，方法是在powershell中输入命令<code>cd .. </code>，此命令是返回到上级菜单。如果默认命令行是C盘里的一个文件夹，则需要运行该命令数次，知道返回到<code>C:\</code>。</p>
 <p>然后输入<code>cd D:\</code>，回车后可以看到命令行的开头变为D盘，接下来就可以在D盘目录下建立文件夹。</p>
 <p>建立的方法是在powershell中运行<code>hugo new site Blog</code>命令。</p>
@@ -200,28 +197,28 @@
 <li>themes/ 为存放主题的文件夹</li>
 </ol>
 <p>如果想修改文件夹存放的地址或者修改名字，直接在文件资源管理器中将其删除，然后用上述方法重新建立即可。</p>
-<h3 id="step3-git">step3 安装git</h3>
+<h2 id="step3-git">step3 安装git</h2>
 <p>git是一种分布式版本控制系统，在官网上即可<a href="https://git-scm.com/">下载git</a>，安装过程并不复杂，直接下一步就好。</p>
-<h3 id="step4-visual-studio-code">step4 安装visual studio code</h3>
+<h2 id="step4-visual-studio-code">step4 安装visual studio code</h2>
 <p><a href="https://code.visualstudio.com/">visual studio code</a>是一个文本编辑器，在官网上下载，安装也很简单。这个工具用来编辑config.toml，写博文也是要用到这个编辑器来书写。</p>
-<h3 id="step5-">step5 安装并设置博客页面的主题风格</h3>
+<h2 id="step5-">step5 安装并设置博客页面的主题风格</h2>
 <p>在powershell中用<strong>cd</strong>命令将地址改到<strong>blog</strong>这个文件夹中。<strong>逐行</strong>运行下列命令：</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git init
-git submodule add https://github.com/olOwOlo/hugo-theme-even.git **themes**/even
 
+git submodule add https://github.com/olOwOlo/hugo-theme-even.git themes/even
 </code></pre></div><p>等待片刻，即可下载好目前本博客使用的even主题。Hugo也提供了一个<a href="https://themes.gohugo.io/">主题网站</a>，自己可以根据喜好来设置。</p>
 <p>用visual studio code打开config.toml，将theme命令行改为下列内容：</p>
-<p><code>theme = &quot;even&quot;</code></p>
-<p>至此，配置主题成功。</p>
-<h3 id="step6-">step6 新建一篇文章</h3>
-<p>在powershell或者cmd中运行下列命令：</p>
-<p><code>D:\blog&gt;hugo new post/test.md</code></p>
-<p>test是这篇文章的标题，可以更换，用汉字输入亦可。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">theme = &#34;even&#34;
+</code></pre></div><p>至此，配置主题成功。</p>
+<h2 id="step6-">step6 新建一篇文章</h2>
+<p>在powershell或者cmd中的<code>D:\blog&gt;</code>运行下列命令：</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new post/test.md
+</code></pre></div><p>test是这篇文章的标题，可以更换，用汉字输入亦可。</p>
 <p>这个命令会在content文件夹中，生成一个post的文件夹，并在其中生成test.md，博客的书写就是用visual studio code书写，并需要遵循markdown的语法。找到test.md，并用visual studio code打开后，先在其中输入一些内容，输入完成后，要将<strong>draft选项改为false</strong>。改为这样，才能够在网站上发表。</p>
-<h3 id="step7-">step7 在本地服务器上预览博客</h3>
+<h2 id="step7-">step7 在本地服务器上预览博客</h2>
 <p>在powershell或者cmd中运行下列命令：</p>
-<p><code>hugo server</code></p>
-<p>会看到一些结果，看不懂没关系，然后在localhost：1313中即可预览到博客的效果。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo server
+</code></pre></div><p>会看到一些结果，看不懂没关系，然后在localhost：1313中即可预览到博客的效果。</p>
 <p>至此就完成了在本地建立博客站点，下一步就是要申请一个远程仓库。</p>
 <h1 id="heading-2">（二）申请一个远程托管仓库</h1>
 <p>一般使用免费的github来建立仓库。</p>
@@ -230,30 +227,34 @@ git submodule add https://github.com/olOwOlo/hugo-theme-even.git **themes**/even
 <p>不过此处注意，github的username就是未来个人网站的域名，建议取一个简洁、有含义、便于辨识和记忆的名字。这是一个听花费时间的步骤，因为会发现好多名字被占用了&hellip;&hellip;</p>
 <h2 id="step2-github">step2 在github上建立一个仓库</h2>
 <p>点击右上角的repositories，然后再点击new，即可建立仓库，仓库的名称需要注意，应写为：</p>
-<p><code>username.github.io</code></p>
-<p>这就是未来个人博客的域名了。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">username.github.io
+</code></pre></div><p>这就是未来个人博客的域名了。</p>
 <p>用户名的修改可以在settings中account中设置。</p>
 <h1 id="heading-3">（三）将本地站点部署在远程仓库上</h1>
 <p>取了一个满意的名字后，就可以开始将本地的文章部署在github上了。</p>
 <h2 id="step1-blogpublic">step1 在blog文件夹内建立public文件夹</h2>
 <p>在<code>D:\blog&gt;</code>里逐行运行下列代码:</p>
-<p><code>mkdir public</code></p>
-<p><code>cd public</code></p>
-<h2 id="step2-github-1">step2 关联github的仓库地址</h2>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">mkdir public`
+
+cd public`
+</code></pre></div><h2 id="step2-github-1">step2 关联github的仓库地址</h2>
 <p>在<code>D:\blog\public&gt;</code>里逐行运行下列代码:</p>
-<p><code>git init</code></p>
-<p><code>git remote add upstream https://github.com/ycwufan/username.github.io.git</code></p>
-<h2 id="step3-blogpublic">step3 将blog的内容放到public</h2>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git init
+
+git remote add upstream https://github.com/ycwufan/username.github.io.git
+</code></pre></div><h2 id="step3-blogpublic">step3 将blog的内容放到public</h2>
 <p>此步骤需要在每次发表新文章时重复运行，可通过脚本替代。</p>
 <p>在<code>D:\blog&gt;</code>里逐行运行下列代码:</p>
-<p><code>hugo -t even</code></p>
-<h3 id="step4-blogpushgithub">step4 将blog的内容push到github上</h3>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo -t even
+</code></pre></div><h3 id="step4-blogpushgithub">step4 将blog的内容push到github上</h3>
 <p>此步骤需要在每次发表新文章时重复运行，可通过脚本替代。</p>
 <p>在<code>D:\blog\public&gt;</code>里逐行运行下列代码:</p>
-<p><code>git add .</code></p>
-<p><code>git commit -m  &quot;switch to hugo&quot;</code></p>
-<p><code>git push -f upstream master # 第一次 push 必须使用 -f，因为此时远程仓库非空，和本地有冲突</code></p>
-<p>至此，博客就可成功发表，等待几分钟，在浏览器中输入域名，就可以看到自己的文章。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git add .
+
+git commit -m  &#34;switch to hugo&#34;
+
+git push -f upstream master # 第一次 push 必须使用 -f，因为此时远程仓库非空，和本地有冲突
+</code></pre></div><p>至此，博客就可成功发表，等待几分钟，在浏览器中输入域名，就可以看到自己的文章。</p>
 
     </div>
 
