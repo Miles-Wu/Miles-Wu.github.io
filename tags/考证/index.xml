@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on wufan&#39;s blog</title>
-    <link>https://ycwufan.github.io/post/</link>
-    <description>Recent content in Posts on wufan&#39;s blog</description>
+    <title>考证 on wufan&#39;s blog</title>
+    <link>https://ycwufan.github.io/tags/%E8%80%83%E8%AF%81/</link>
+    <description>Recent content in 考证 on wufan&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>wufan</copyright>
-    <lastBuildDate>Sun, 12 Jan 2020 10:39:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 21:39:27 +0800</lastBuildDate>
     
-	<atom:link href="https://ycwufan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ycwufan.github.io/tags/%E8%80%83%E8%AF%81/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>信息茧房</title>
-      <link>https://ycwufan.github.io/2020/01/12/05%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</link>
-      <pubDate>Sun, 12 Jan 2020 10:39:31 +0800</pubDate>
-      
-      <guid>https://ycwufan.github.io/2020/01/12/05%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</guid>
-      <description>You are what you read. 前几天看了张小龙在微信公开课里的演讲，他说了这么一段话： 二. 信息获取的被动 你所看见的，或者说，你所阅读的，决定你是什么样的人，会有</description>
-    </item>
     
     <item>
       <title>2020年注册城乡规划师备考指南</title>
@@ -28,15 +19,6 @@
       
       <guid>https://ycwufan.github.io/2020/01/01/04%E6%B3%A8%E5%86%8C%E5%9F%8E%E4%B9%A1%E8%A7%84%E5%88%92%E5%B8%88/</guid>
       <description>考试特点 特点一：2020年迎来较大变革 由于国土空间规划新政策的实施，10年未变的教材可能会迎来较大调整。能够结合当下趋势，对于考生来说是件好</description>
-    </item>
-    
-    <item>
-      <title>电脑小白如何搭建个人的博客网站</title>
-      <link>https://ycwufan.github.io/2019/12/31/03%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
-      <pubDate>Tue, 31 Dec 2019 17:46:00 +0800</pubDate>
-      
-      <guid>https://ycwufan.github.io/2019/12/31/03%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
-      <description>在朋友jdhao的帮助下，终于建成了自己的博客。尽管朋友写了一篇教学文章，但作为电脑小白照着操作还是有点困难，最终是在朋友的远程帮助下，建成</description>
     </item>
     
     <item>
