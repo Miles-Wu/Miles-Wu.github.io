@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>园林施工图设计及动态块的制作 - wufan&#39;s blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="wufan" /><meta name="description" content="最近做了两套市政项目的施工图，对于施工图设计有了一点初步的认识，总结一下。 (一)几个认识 施工图设计，既然名为设计，就意味着不仅仅是绘图，要和" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+<meta name="google-site-verification" content="HTz0VHxqny_b0FfS774dICLBzHGBZCb_S11j_akF1Tw" />
+
+
+<meta name="generator" content="Hugo 0.62.0 with theme even" />
+
+
+<link rel="canonical" href="https://ycwufan.github.io/2020/02/03/07%E5%9B%AD%E6%9E%97%E6%96%BD%E5%B7%A5%E5%9B%BE/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="园林施工图设计及动态块的制作" />
+<meta property="og:description" content="最近做了两套市政项目的施工图，对于施工图设计有了一点初步的认识，总结一下。 (一)几个认识 施工图设计，既然名为设计，就意味着不仅仅是绘图，要和" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ycwufan.github.io/2020/02/03/07%E5%9B%AD%E6%9E%97%E6%96%BD%E5%B7%A5%E5%9B%BE/" />
+<meta property="article:published_time" content="2020-02-03T16:35:08+08:00" />
+<meta property="article:modified_time" content="2020-02-06T19:18:09+08:00" />
+<meta itemprop="name" content="园林施工图设计及动态块的制作">
+<meta itemprop="description" content="最近做了两套市政项目的施工图，对于施工图设计有了一点初步的认识，总结一下。 (一)几个认识 施工图设计，既然名为设计，就意味着不仅仅是绘图，要和">
+<meta itemprop="datePublished" content="2020-02-03T16:35:08&#43;08:00" />
+<meta itemprop="dateModified" content="2020-02-06T19:18:09&#43;08:00" />
+<meta itemprop="wordCount" content="2109">
+
+
+
+<meta itemprop="keywords" content="园林景观设计,初设施工图," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="园林施工图设计及动态块的制作"/>
+<meta name="twitter:description" content="最近做了两套市政项目的施工图，对于施工图设计有了一点初步的认识，总结一下。 (一)几个认识 施工图设计，既然名为设计，就意味着不仅仅是绘图，要和"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">wufan&#39;s blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">wufan&#39;s blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">园林施工图设计及动态块的制作</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-02-03 </span>
+        <div class="post-category">
+            <a href="/categories/%E5%9B%AD%E6%9E%97%E6%99%AF%E8%A7%82%E8%AE%BE%E8%AE%A1/"> 园林景观设计 </a>
+            </div>
+          <span class="more-meta"> 2109 words </span>
+          <span class="more-meta"> 5 mins read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#heading">(一)几个认识</a>
+      <ul>
+        <li><a href="#1">（1）从施工的角度考虑设计</a></li>
+        <li><a href="#2">（2）明确必要的控制信息</a></li>
+        <li><a href="#3">（3）有效率的绘图</a></li>
+      </ul>
+    </li>
+    <li><a href="#heading-1">（二）动态块的制作和工具选项版的设置</a></li>
+    <li><a href="#heading-2">（三）常规做法块的分类</a>
+      <ul>
+        <li><a href="#1-1">（1）连接构件</a></li>
+        <li><a href="#2-1">（2）预埋件</a></li>
+        <li><a href="#3-1">（3）铺装做法</a></li>
+        <li><a href="#4">（4）台阶</a></li>
+        <li><a href="#5">（5）种植池</a></li>
+        <li><a href="#6">（6）水池</a></li>
+        <li><a href="#7">（7）景观湖</a></li>
+        <li><a href="#8">（8）栏杆</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>最近做了两套市政项目的施工图，对于施工图设计有了一点初步的认识，总结一下。</p>
+<h2 id="heading">(一)几个认识</h2>
+<p>施工图设计，既然名为设计，就意味着不仅仅是绘图，要和设计方案一样意在笔先。先了解背后的原理，再搞清楚绘制的过程，最后是有效率的绘制。</p>
+<p>会画施工图不是指能够画出一些工程做法，而是能够理解施工的原理，并能够完成一些复杂结构的设计。</p>
+<h3 id="1">（1）从施工的角度考虑设计</h3>
+<p>做施工图设计应该能够大致了解一个<strong>构筑物的施工流程和方法</strong>。作为设计人员想要了解这些知识，就需要多向那些有施工经验的人讨教或者多去项目施工现场考察。</p>
+<p>大型构筑物的建造逻辑一般是<strong>先拆分后合并</strong>，首先将构筑物<strong>分割</strong>为几个相对独立的部分，对各部分先后施工，最后再拼接起来。</p>
+<p>异型构筑物的建造逻辑类似，可以用<strong>加法或者减法</strong>的思维来理解，以一个基础造型进行加减法从而得到异型的造型。</p>
+<h3 id="2">（2）明确必要的控制信息</h3>
+<p>园林施工图不像是建筑或者结构或者工业等专业需要较高的精度，一定的偏差不会影响大的效果。一些地方没有必要扣的很细，甚至没有必要画的很细，只要能够反映<strong>必要的控制信息</strong>，让施工方看懂即可。这一点在总图和详图中都适用。</p>
+<p>所以，在绘制的时候，应该考虑清楚哪些信息需要表达、如何简单清晰且方便的表达，在一些情况下可以直接用文字而非图纸表达。</p>
+<p><strong>对于一些复杂的异型构筑物造型，最好是能够简化成由几个参数在一定规律下变化而成的造型，且这个些参数能够在施工中实现。</strong></p>
+<p>如果是一些简单的异型，直接给方格网或坐标点放线即可。</p>
+<h3 id="3">（3）有效率的绘图</h3>
+<p>工作应该尽可能提高效率。尤其是要提高一些重复性工作的效率。</p>
+<p>详图部分一般包括构筑物的<strong>平立剖图</strong>和<strong>做法图</strong>。</p>
+<p>构筑物的平立剖是根据设计千变万化，但大部分构筑物的做法是基本类似的，或可以在常规做法上进行调整修改。</p>
+<p>绘制做法图的主要思路就是<strong>调用</strong>，这是从编程那借鉴的一种说法。简言之，能拿来用的就千万别重新画，尽量用自己画过的和通过各种渠道搜集到的图。</p>
+<p>如何快捷的调用呢？</p>
+<p>一种方式就是通过<strong>总结或者收集各类做法</strong>，自己制做<strong>动态块</strong>，形成自己一套<strong>工具选项板</strong>，方便在下次绘图中使用。</p>
+<h2 id="heading-1">（二）动态块的制作和工具选项版的设置</h2>
+<p>网上有很多动态块和工具选项版的教程，可以参考下面两个在b站上的教学视频。</p>
+<ol>
+<li>
+<p><a href="https://www.bilibili.com/video/av32451890/">动态块制作教程</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/av28395502/">工具选项版设置教程</a></p>
+</li>
+</ol>
+<p>通过制作动态块并放入工具选项板中，就可以在下次绘图时迅速调用一些常规的工程做法。</p>
+<p>如果要在另一台电脑上加载自己的工具选项版，需要在原电脑上导出xtp文件，连同块文件一起移动到新电脑的原有路径上，就可加载使用。</p>
+<p>导入导出工具选项板xtp文件，可参考<a href="https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/sfdcarticles/sfdcarticles/CHS/How-to-export-and-import-AutoCAD-tool-palettes.html">cad官方说明</a>。</p>
+<h2 id="heading-2">（三）常规做法块的分类</h2>
+<p>园林工程的做法主要参考图集<a href="https://book.douban.com/subject/20276081/">《室外工程》（12J003）</a>。</p>
+<h3 id="1-1">（1）连接构件</h3>
+<h4 id="heading-3">自攻螺丝</h4>
+<p><a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E6%94%BB%E8%9E%BA%E7%B5%B2">自攻螺丝</a>是一种可以不须先钻孔就可以自己攻螺纹的螺丝。</p>
+<p>木栈道等详图会用到这个构件，用于连接面板和龙骨等。</p>
+<h4 id="heading-4">角钢</h4>
+<p>多种尺寸，包括20x3、30x3、40x3等。</p>
+<p>除此之外，还有膨胀螺栓、方钢、槽钢和驳接爪等连接构件。</p>
+<h3 id="2-1">（2）预埋件</h3>
+<p>预埋件一般是预先安装在混凝土结构中的钢构件，用以连接上部结构，如栏杆的钢立柱。</p>
+<p>主要规格包括：</p>
+<ol>
+<li>
+<p>Φ6锚筋+6厚不锈钢锚板</p>
+</li>
+<li>
+<p>Φ8锚筋+8厚不锈钢锚板</p>
+</li>
+<li>
+<p>Φ12锚筋+12厚不锈钢锚板</p>
+</li>
+</ol>
+<p>除此之外，预埋件还包括预埋角钢和地脚螺栓等形式。</p>
+<h3 id="3-1">（3）铺装做法</h3>
+<p>铺装的种类很多，列举几个的常用做法：</p>
+<ol>
+<li>
+<p>花岗岩铺装（人行）</p>
+</li>
+<li>
+<p>花岗岩铺装（车行）</p>
+</li>
+<li>
+<p>透水砖铺装（人行）</p>
+</li>
+<li>
+<p>透水砖铺装（车行）</p>
+</li>
+<li>
+<p>木铺装</p>
+</li>
+</ol>
+<p>这些做法可以分别做一个动态块。</p>
+<h3 id="4">（4）台阶</h3>
+<p>台阶和坡道是处理高差的方式，细看的话，内容很多，有很多细节。</p>
+<ol>
+<li>
+<p>在《室外工程》（12J003）里，将台阶分为<strong>台阶、大台阶、台阶防滑和台阶挡墙</strong>四个部分。</p>
+</li>
+<li>
+<p>根据台阶面层的区别，主要分为<strong>条石台阶</strong>和<strong>花岗岩面层台阶</strong>。</p>
+</li>
+<li>
+<p>对于体量比较大的台阶（大于6步），可能需要在底部增加<strong>挡墙基础</strong>。</p>
+</li>
+<li>
+<p>台阶常用的尺寸规格有<strong>300x150、400x150、600x150、800x150、900x150和1200x150</strong>。</p>
+</li>
+<li>
+<p>台阶的垫层至少需要<strong>150厚C20素混凝土+150厚级配砂石</strong></p>
+</li>
+</ol>
+<h3 id="5">（5）种植池</h3>
+<p>种植池一般为砖砌或混凝土砌块砌筑，包含几个重要构造：</p>
+<ol>
+<li>
+<p>花岗岩压顶</p>
+</li>
+<li>
+<p>底部防潮层</p>
+</li>
+<li>
+<p>排水管</p>
+</li>
+<li>
+<p>底部基础放大并做混凝土垫层</p>
+</li>
+</ol>
+<h3 id="6">（6）水池</h3>
+<p>水池是以一个比较复杂的构筑物，包含很多内容。</p>
+<p>水池的分类：</p>
+<ol>
+<li>
+<p>按照造型可分为自然式或规则式。</p>
+</li>
+<li>
+<p>根据防水材料位置的不同，分为内防水和外防水。</p>
+</li>
+<li>
+<p>根据水池与地面的位置关系，可为半地下或全地下。</p>
+</li>
+</ol>
+<p>水池的配套设施可能还包括跌水、泵坑和溢水口等设施。</p>
+<p>水池基础可能会需要配筋。</p>
+<h3 id="7">（7）景观湖</h3>
+<p>景观湖等人工水体的设计应注意<strong>近岸的安全距离</strong>，参见《公园设计规范》（GB51192-2016）中<a href="http://www.jianbiaoku.com/webarbs/book/269/2666186.shtml">第5.3.3条</a>:</p>
+<blockquote>
+<p>非淤泥底人工水体的岸高及近岸水深应符合下列规定：</p>
+<p>1 无防护设施的人工驳岸，近岸2．0m范围内的常水位水深不得大于0．7m；</p>
+<p>2 无防护设施的园桥、汀步及临水平台附近2．0m范围以内的常水位水深不得大于0．5m；</p>
+<p>3 无防护设施的驳岸顶与常水位的垂直距离不得大于0．5m。</p>
+</blockquote>
+<h3 id="8">（8）栏杆</h3>
+<p>栏杆的做法其实比较复杂，包括<strong>扶手、立杆、立柱、横杆和基础等构件，以及这几个部分之间的连接方式</strong>。</p>
+<p>出图至少包括以下两个部分：</p>
+<ol>
+<li>
+<p>栏杆的立面图，表达清扶手、立柱、立杆和横杆等部件的尺寸关系。</p>
+</li>
+<li>
+<p>立柱做法图，表达清立柱与扶手、基础和横杆的连接方式。</p>
+</li>
+</ol>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">wufan</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2020-02-06
+        
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/%E5%9B%AD%E6%9E%97%E6%99%AF%E8%A7%82%E8%AE%BE%E8%AE%A1/">园林景观设计</a>
+          <a href="/tags/%E5%88%9D%E8%AE%BE%E6%96%BD%E5%B7%A5%E5%9B%BE/">初设施工图</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/2020/01/21/06%E6%99%AF%E8%A7%82%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE/">
+            <span class="next-text nav-default">园林设计中常用的数据</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'wufan';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/ycwufan" class="iconfont icon-github" title="github"></a>
+  <a href="https://ycwufan.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">wufan</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-113395108-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+
+
+
+</body>
+</html>
