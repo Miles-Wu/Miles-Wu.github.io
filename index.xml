@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>wufan</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 22:41:13 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 20:36:30 +0800</lastBuildDate>
     
 	<atom:link href="https://ycwufan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>避免返工和设计流程的优化</title>
+      <link>https://ycwufan.github.io/2020/03/26/11%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E8%BF%94%E5%B7%A5/</link>
+      <pubDate>Thu, 26 Mar 2020 20:36:30 +0800</pubDate>
+      
+      <guid>https://ycwufan.github.io/2020/03/26/11%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E8%BF%94%E5%B7%A5/</guid>
+      <description>工作中，返工恐怕是最最浪费时间的原因之一。一个项目，因为前一个工作流程没做好，从而导致后面的工作白做，这种情况并不少见。 不过这也是现实，总会</description>
+    </item>
     
     <item>
       <title>放线图</title>
