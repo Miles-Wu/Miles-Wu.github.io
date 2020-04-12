@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>wufan</copyright>
-    <lastBuildDate>Thu, 26 Mar 2020 20:36:30 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 20:56:52 +0800</lastBuildDate>
     
 	<atom:link href="https://ycwufan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>胡言乱语</title>
+      <link>https://ycwufan.github.io/categories/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/</link>
+      <pubDate>Sun, 12 Apr 2020 20:56:52 +0800</pubDate>
+      
+      <guid>https://ycwufan.github.io/categories/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>园林景观设计</title>
@@ -27,15 +36,6 @@
       <pubDate>Tue, 25 Feb 2020 21:11:46 +0800</pubDate>
       
       <guid>https://ycwufan.github.io/categories/%E6%8A%95%E8%B5%84/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>胡言乱语</title>
-      <link>https://ycwufan.github.io/categories/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/</link>
-      <pubDate>Sun, 12 Jan 2020 10:39:31 +0800</pubDate>
-      
-      <guid>https://ycwufan.github.io/categories/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/</guid>
       <description></description>
     </item>
     
