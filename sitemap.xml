@@ -3,28 +3,70 @@
   
   <url>
     <loc>https://ycwufan.github.io/categories/</loc>
-    <lastmod>2020-04-12T22:01:23+08:00</lastmod>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ycwufan.github.io/post/</loc>
-    <lastmod>2020-04-12T22:01:23+08:00</lastmod>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ycwufan.github.io/tags/</loc>
-    <lastmod>2020-04-12T22:01:23+08:00</lastmod>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ycwufan.github.io/</loc>
-    <lastmod>2020-04-12T22:01:23+08:00</lastmod>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/tags/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/categories/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/2020/04/20/14%E7%BB%93%E6%9E%84%E4%B8%93%E4%B8%9A%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6/</loc>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2020-04-20T23:45:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/2020/04/20/13%E7%A7%8D%E6%A4%8D%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2020-04-20T23:44:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ycwufan.github.io/tags/%E7%A7%8D%E6%A4%8D%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2020-04-20T23:44:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -219,14 +261,14 @@
   </url>
   
   <url>
-    <loc>https://ycwufan.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://ycwufan.github.io/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2020-02-21T18:11:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ycwufan.github.io/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://ycwufan.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2020-02-21T18:11:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
